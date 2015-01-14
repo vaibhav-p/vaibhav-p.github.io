@@ -1080,11 +1080,11 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 50px;
+  font-size: 60px;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 h3,
 .h3 {
@@ -3650,7 +3650,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+ 
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3846,9 +3846,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
-    margin-left: 5px;
+    margin-left: 3%;
+    margin-top: 0px;
     border-radius: 150px;
-    background-color: rgba(0,0,0,.3);
+    border:1px solid;
+    border-color: rgb(150,150,150);
+    background-color: rgba(255,255,255,.5);
   }
 }
 .navbar-collapse {
@@ -3994,6 +3997,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
+  padding-top:  .5%;
+  padding-bottom: .5%;
   margin: 7.5px -15px;
 }
 .navbar-nav > li > a {
@@ -4165,9 +4170,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color:transparent ;
+  background-color:rgba(0,0,0,.2);;
   padding-right: 5%;
-  padding-top: 1%;
   
 }
 .navbar-default .navbar-brand {
@@ -4183,8 +4187,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a {
   color: gray;
-  font-size: 150%;
-  background-color: rgba(255,255,255,.1);
+  font-size: 130%;
+  background-color: rgba(255,255,255,.5);
   padding: 10px;
   border-radius: 4px;
   border-color: gray;

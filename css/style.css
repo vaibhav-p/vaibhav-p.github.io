@@ -1,9 +1,9 @@
 header {
     text-align: center;
     background-attachment: inherit;
-    background-image: url(backgroundpic.jpg);
+    background-image: url(maze.png);
     background-position: inherit;
-    background-repeat: no-repeat;
+    background-repeat: inherit;
     background-position: center;
     -webkit-background-size: center;
     -moz-background-size: center;
@@ -13,9 +13,8 @@ header {
 }
 .backgrd{
     filter: alpha(opacity=20);
-    opacity: .5;
+    opacity: .8;
      margin-top:-70%;
-     margin-bottom: -.2%;
      -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -23,39 +22,44 @@ header {
     transform: scaleX(-1);
     -ms-filter: "FlipH";
     filter: FlipH;
-        filter: blur(2px);
-    -webkit-filter: blur(2px) sepia(100%);
-    -moz-filter: blur(2px) sepia(100%);
-    -o-filter: blur(2px) sepia(100%);
-    -ms-filter: blur(2px) sepia(100%);
+    opacity: .7;
+    filter: sepia(100%) blur(0.7px);
+    -webkit-filter: sepia(100%) blur(0.7px);
+    -moz-filter: sepia(100%) blur(0.7px);
+    -o-filter: sepia(100%) blur(0.7px);
+    -ms-filter: sepia(100%) blur(0.7px);
   
     
 }
 
 .backgrd:hover{
-  filter: sepia(100%);
-    -webkit-filter: sepia(100%);
-    -moz-filter: sepia(100%);
-    -o-filter: sepia(100%);
-    -ms-filter: sepia(100%);
+ 
+    filter: blur(2px);
+    -webkit-filter: blur(2px) sepia(100%);
+    -moz-filter: blur(2px) sepia(100%);
+    -o-filter: blur(2px) sepia(100%);
+    -ms-filter: blur(2px) sepia(100%);
 }
 
 
 
 .headersection{
-    margin-top: 35%;
-    padding-bottom: 10%;
-
+    padding-top: 30%;
 }
-
+.header-align{
+    margin-top:80%;
+}
+.button-align{
+    float: left;
+    margin-top: 40%;
+}
 
 .headertext{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Pacifico', cursive;
     color:gray;
     border-radius: 50px;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(255,255,255,.3);
 }
-
 
 
 ul li {
@@ -69,11 +73,23 @@ hr.style-two {
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
-.logo{
-    padding-top: 60px;
-    padding-right: 2%; 
-}
 
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
 
 /*STARTUP ANIMATION*/
 .animated { 

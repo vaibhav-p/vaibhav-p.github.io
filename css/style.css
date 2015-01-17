@@ -14,7 +14,7 @@ header {
 .backgrd{
     filter: alpha(opacity=20);
     opacity: .8;
-     margin-top:-70%;
+     margin-top:-75%;
      -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -31,39 +31,29 @@ header {
   
     
 }
-
-.backgrd:hover{
- 
-    filter: blur(2px);
-    -webkit-filter: blur(2px) sepia(100%);
-    -moz-filter: blur(2px) sepia(100%);
-    -o-filter: blur(2px) sepia(100%);
-    -ms-filter: blur(2px) sepia(100%);
+.fontl{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
-
-
-
 .headersection{
     padding-top: 30%;
+    margin-bottom: -1px;
 }
 .header-align{
-    margin-top:80%;
+    margin-top:30%;
 }
-.button-align{
-    float: left;
-    margin-top: 40%;
-}
-
 .headertext{
     font-family: 'Pacifico', cursive;
-    color:gray;
-    border-radius: 50px;
-    background-color: rgba(255,255,255,.3);
+    color:gray; 
+}
+ul li {
+    margin-right: 10px;
 }
 
 
-ul li {
-    margin-right: 10px;
+/*BODY*/
+.body-text{
+    margin-top: 5%;
 }
 hr.style-two {
     border: 0;
@@ -81,15 +71,7 @@ hr.style-eight {
     color: #333;
     text-align: center;
 }
-hr.style-eight:after {
-    content: "§";
-    display: inline-block;
-    position: relative; 
-    top: -0.7em;  
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
-}
+
 
 /*STARTUP ANIMATION*/
 .animated { 
